@@ -2,8 +2,7 @@
 
 This is a multi-page Streamlit capstone application that brings together three engineering tools built on a shared object-oriented calculation engine (`engineering.py`). The **Pipe Flow Analyser** lets a user pick a fluid (water, air, crude oil, or their own custom properties), set pipe geometry and flow rate, and instantly see velocity, Reynolds number, friction factor, and pressure drop, complete with a pressure-drop-vs-flow-rate chart and CSV export. The **Heat Transfer Calculator** combines steady-state conduction through a flat wall (Fourier's Law) with Newton's Law of Cooling, calculating how long an object takes to cool to a target temperature and plotting the full temperature-vs-time curve. The **Rock & Fluid Data Dashboard** lets a user upload any CSV of sample data (or load a bundled example dataset), view summary statistics, filter by any numeric column, generate a histogram and a crossplot, and download the filtered results. Every calculation class validates its own inputs and raises clear errors that the UI catches and displays as warnings instead of crashes.
 
-**Live app URL:** _[Add your Streamlit Community Cloud URL here after deploying, e.g. https://your-app-name.streamlit.app]_
-
+**Live app URL:** https://engineering-heatflow-suite-vpkejnitsuh5c7nnwtwkxr.streamlit.app/
 ## Project structure
 
 ```
